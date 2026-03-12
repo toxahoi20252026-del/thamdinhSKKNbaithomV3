@@ -30,6 +30,7 @@ const store: Store = {
     { username: 'phamthianhtuyết', password: '07091985', fullName: 'Phạm Thị Ánh Tuyết', role: 'judge' },
     { username: 'nguyentritai', password: '21051980', fullName: 'Nguyễn Trí Tài', role: 'judge' },
     { username: 'nguyenthingocgiau', password: '05051996', fullName: 'Nguyễn Thị Ngọc Giàu', role: 'judge' },
+    { username: 'toxahoi', password: 'toxahoi', fullName: 'Tổ Xã hội', role: 'judge' },
   ].map((u, i) => ({ ...u, id: u.username })),
   grades: [],
   settings: null,
